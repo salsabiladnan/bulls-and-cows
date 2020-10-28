@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-28T14:03:47" hostname="DESKTOP-UCJ37A3" time="0.21">
+<testsuite name="BullsCowsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-28T15:30:16" hostname="DESKTOP-UCJ37A3" time="0.075">
   <properties/>
-  <testcase name="start" classname="BullsCowsTest" time="0.21"/>
+  <testcase name="start" classname="BullsCowsTest" time="0.075"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
-The secret code is prepared: ****.
-
-Turn 1. Answer:
-1234
-Grade: None.
-
-Turn 2. Answer:
-9876
-Grade: 4 bulls.
-Congrats! The secret code is 9876.
+> 3601
+?[1;31m
+Start test 2?[0m
+> 1101
+?[1;31m
+Start test 3?[0m
+> 2345
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
