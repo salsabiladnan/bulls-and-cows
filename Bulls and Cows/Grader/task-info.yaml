@@ -186,9 +186,19 @@ files:
     }
   learner_created: false
 feedback_link: https://hyperskill.org/projects/53/stages/288/implement
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/53/stages/288/implement">JetBrains
-    Academy</a>
-  time: Wed, 28 Oct 2020 15:30:17 UTC
+  message: |-
+    Wrong answer in test #1
+
+    The testing system didn&#39;t find a pairs of bulls and cows or None in your program&#39;s output.
+
+    Please find below the output of your program during this failed test.
+    Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
+
+    ---
+
+    &gt; 3601
+    Error: can&#39;t generate a secret number with a length of 11 because there aren&#39;t enough unique digits.
+  time: Wed, 28 Oct 2020 16:13:20 UTC
 record: 2
