@@ -1,5 +1,6 @@
 package bullscows;
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
@@ -29,8 +30,7 @@ public class Main {
     }
 
     public static String secretCode(int length) {
-        long pseudoRandomNumber = System.nanoTime();
-        String random = String.valueOf(pseudoRandomNumber);
+        Random random = new Random();
 
         StringBuilder res = new StringBuilder();
 
@@ -38,8 +38,9 @@ public class Main {
             System.out.printf("Error: can't generate a secret number with a length of %d because there aren't enough unique digits.", length);
         } else {
             for (int i = 0; i < length; i++) {
+                int randomNumber = random.nextInt(10);
                 String resStr = res.toString();
-                String randomI = String.valueOf(random.charAt(i));
+                String randomI = String.valueOf(randomNumber);
                 if (!resStr.contains(randomI)) {
                     res.append(randomI);
                 } else {

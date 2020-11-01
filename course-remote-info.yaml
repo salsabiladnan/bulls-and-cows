@@ -15,10 +15,10 @@ stages:
   is_completed: true
 - id: 290
   step: 5432
-  is_completed: false
+  is_completed: true
 - id: 291
   step: 5433
-  is_completed: false
+  is_completed: true
 - id: 292
   step: 5434
   is_completed: false
@@ -79,10 +79,14 @@ topics:
     theory_id: 6865
   - title: Introduction to OOP
     theory_id: 3614
+  - title: Functional decomposition
+    theory_id: 10570
   - title: Sizes and ranges
     theory_id: 3532
   - title: Type casting
     theory_id: 3510
+  - title: Switch statement
+    theory_id: 3504
   - title: Defining methods
     theory_id: 3590
   - title: The main method
